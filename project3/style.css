@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#nav{
+    display: flex;
+    padding: 35px 45px;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 15px;
+}
+#nav-part1{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+#nav-part2{
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+}
+#content{
+    padding: 25px 40px;
+    margin-top: 80px;
+}
+#content h3{
+    font-size: 35px;
+    font-weight: 500;
+}
+#content h1{
+    margin-top: 30px;
+    font-size: 125px;
+    line-height: 120px;
+    font-weight: 500;
+    /* letter-spacing:-2; */
+}
+#case{
+    padding: 35px 40px;
+    margin-top: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#case h4{
+    font-size: 25px;
+    font-weight: 500;
+}
+#right{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    font-size: 22px;
+    font-weight: 500;
+}
+#line{
+    height: 2px;
+    width: 150px;
+    background-color: black;
+}
+#projects{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 75px;
+    gap: 80px;
+}
+.elem{
+    width: 100%;
+}
+.elem-img{
+    height: 700px;
+    width: 100%;
+    background-color: red;
+    background-color: 30px;
+    background-size: cover;
+    position: center;
+    border-radius: 40px;
+
+}
+#img1{
+
+    background-image: url(https://images.unsplash.com/photo-1706720097663-45d297a37e3c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDQ1fENEd3V3WEpBYkV3fHxlbnwwfHx8fHw%3D);
+}
+#img2{
+    background-image: url(https://static.vecteezy.com/system/resources/previews/002/046/657/non_2x/welcome-screen-login-and-register-on-screen-log-in-and-sign-up-ui-ux-on-smartphone-screen-login-application-with-password-form-window-illustration-free-vector.jpg);
+}
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+.bottom i{
+    padding: 15px 25px;
+    font-size: 22px;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+.bottom i:hover{
+    background-color: black;
+    color: white;
+}
+.bottom h2{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.bottom h4{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(19, 19, 19, 0.744);
+}
